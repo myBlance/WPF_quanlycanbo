@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPF_quanlycanbo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_quanlycanbo"
+        mc:Ignorable="d"
+        Title="Đăng nhập" Height="250" Width="400">
+    <Grid>
+        <Label Content="Tên đăng nhập:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50,0,0"/>
+        <TextBox Name="txtUsername" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="149,55,0,0" Width="200"/>
+
+        <Label Content="Mật khẩu:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,100,0,0"/>
+        <PasswordBox Name="txtPassword" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="149,106,0,0" Width="200"/>
+
+        <Button Content="Đăng nhập" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,155,46" Width="100" Click="LoginButton_Click"/>
+    </Grid>
+</Window>
